@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: cornflowerblue;
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+}
+
+h1{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    font-size: 48px;
+    margin: 40px;
+    text-shadow: 0px 0px 5px black;
+}
+
+/* Box Dadi */
+.box-dado{
+    width: 40%;
+    display: inline-block;
+}
+
+img{
+    margin: 30px;
+}
+
+/* /Box Dadi */
+
+/* Box Punteggio */
+.container-2{
+    width: 60%;
+    margin: 40px auto;
+}
+
+.box-regolamento{
+    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 2;
+}
+
+button{
+    background-color: white;
+    padding: 15px 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+/* /Box Punteggio */

@@ -5,10 +5,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gioco dei Dadi</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <h1>Gioco dei dadi</h1>
+    <div class="container">
+        <div class="box-dado">
+            <h2>Tu</h2>
+            <img src="pngRandom.png" alt="#">
+            <p id="punteggio-utente">0</p>
+        </div>
+        <div class="box-dado">
+            <h2>Computer</h2>
+            <img src="pngRandom.png" alt="#">
+            <p id="punteggio-computer">0</p>
+        </div>
+    </div>
+    <div class="container-2">
+        <div class="box-regolamento">
+            <h3>Punteggio</h3>
+            <p>Utente</p>
+            <p id="punteggio-utente">0</p>
+            <p>Computer</p>
+            <p id="punteggio-computer">0</p>
+        </div>
+        <div class="box-regolamento">
+            <button id="lancio">Lancia</button>
+        </div>
+        <div class="box-regolamento">
+            <h3>Regolamento</h3>
+            <p>2 dadi, 1 unico vincitore.</p>
+        </div>
+
+    </div>
 
     <script src="js/script.js"></script>
 </body>
