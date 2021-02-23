@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gioco dei Dadi</title>
+    <link rel="shortcut icon" href="pngRandom.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;700&display=swap" rel="stylesheet">
@@ -16,21 +17,21 @@
     <div class="container">
         <div class="box-dado">
             <h2>Tu</h2>
-            <img src="pngRandom.png" alt="#">
-            <p id="punteggio-utente">0</p>
+            <img id="img-dado-utente" src="pngRandom.png" alt="Dado Utente">
+            <p id="dado-utente" class="punteggio">?</p>
         </div>
         <div class="box-dado">
             <h2>Computer</h2>
-            <img src="pngRandom.png" alt="#">
-            <p id="punteggio-computer">0</p>
+            <img id="img-dado-computer" src="pngRandom.png" alt="Dado Computer">
+            <p id="dado-computer" class="punteggio">?</p>
         </div>
     </div>
     <div class="container-2">
         <div class="box-regolamento">
             <h3>Punteggio</h3>
-            <p>Utente</p>
+            <p class="font-w">Utente</p>
             <p id="punteggio-utente">0</p>
-            <p>Computer</p>
+            <p class="font-w">Computer</p>
             <p id="punteggio-computer">0</p>
         </div>
         <div class="box-regolamento">
@@ -39,6 +40,11 @@
         <div class="box-regolamento">
             <h3>Regolamento</h3>
             <p>2 dadi, 1 unico vincitore.</p>
+            <p>Chi? Semplice: chi arriva prima a 10!</p>
+            <p>Buona fortuna!</p>
+        </div>
+        <div id="esito">
+            <h3>INIZIA!</h3>
         </div>
 
     </div>
